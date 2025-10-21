@@ -45,6 +45,12 @@ a {
     font-size: 18px;
 }
 
+.nav-item:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+
 .get-template-button {
     background-color: #1b1a1a;
     padding: 11px 20px;
