@@ -2,14 +2,22 @@
 
 body {
     font-family: Poppins, serif;
-    font-weight: 500;
+    font-weight: 400;
     padding: 0;
     margin: 0;
 }
 
 a {
     text-decoration: none;
-    color: black;
+}
+
+p {
+    color: #403e3b;
+}
+
+h1,
+a {
+    color: #1b1a1a;
 }
 
 .navbar-container {
@@ -49,8 +57,8 @@ a {
 
 .logo {
     font-size: 28px;
-    font-weight: 600;
-    color: black;
+    font-weight: 500;
+    /* color: black; */
 }
 
 .first-block-container {
@@ -66,29 +74,35 @@ a {
 
 .first-block-text-container {
     margin: 77px 60px;
+    padding: 40px;
 
-    h1,
-    p {
-        margin: 0;
+    * {
+        margin: 0 0 30px;
     }
 }
 
 .company-name {
     color: #645c55;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .heading {
-    font-size: 7em;
-    /* Не забудь тут поменять */
+    font-size: 6em;
     line-height: 1em;
+    font-weight: 400;
 }
 
 .desc {
     font-size: 24px;
 }
 
-.bold {
-    font-weight: 900;
+.logo > .bold {
+    font-weight: 600;
+}
+
+.read-more {
+    font-size: 1.6em;
+    display: inline-block;
+    margin: 15px 0 0 25px;
 }
