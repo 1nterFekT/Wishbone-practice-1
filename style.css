@@ -312,3 +312,45 @@ a {
     font-size: 20px;
     color: #645c55;
 }
+
+.sixth-block-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 140px;
+    height: 530px;
+    background-color: #403e3b;
+    padding: 80px 200px 80px 150px;
+}
+
+.sixth-block-container h3 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+
+.sixth-block-container p {
+    color: #ece7e4;
+    margin: 15px 0 0;
+    font-size: 20px;
+}
+
+.prior-clients {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.sixth-block-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixth-block-logos img {
+    width: 25%;
+    height: 25%;
+    margin: 60px;
+}
